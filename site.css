@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px green;
+    background: linear-gradient rgb(87, 87, 49);
+    
+}
+#d1{
+    width: 100px; /*Largura*/
+    height: 75px; /*Altura*/
+    background-color: rgb(172, 145, 197);
+    color: rgb(49, 117, 94); /*Cor da letra*/
+    border: 5px solid rgb(78, 78, 194);
+    margin-left: auto; /*imagem automatica esquerda*/
+    margin-right: auto; /*imagem automatica direita*/
+    margin-top: 30px;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    transform: rotate(30deg);
+    -webkit-transform:rotate(15deg) ; /*sobra na tela */
+
+}
+#d2{
+    border-style: solid;
+    border-width: medium;
+    box-shadow: 10px 10px 10px purple;/*sobra da tela */
+    border-radius: 25px;
+
+}
+#d3{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(83, 92, 96);
+    color: rgb(12, 12, 11);
+    border-style: dotted;
+    float: none;
+    position: fixed;
+
+}
+#d4{
+    width: 140px;
+    height: 70px;
+    background-color: rgb(209, 6, 231);
+    color: rgb(12, 12, 11);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: dashed;
+
+    animation: teste 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes teste{
+    from {box-shadow: 20px 20px 20px rgb(209, 6, 231);}
+    to{ box: 10px 10px 10px rgb(87, 87, 49);}
+}
+
+img{
+    display: inline;
+    border: 1px solid rgb(red, green, blue);
+    border-radius: 4px;
+    padding: 5px;
+    animation: pinto 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pinto{
+    from{box-shadow: 10px 10px 10px;}
+    to{box-shadow: 10px 10px 10px;}
+}
